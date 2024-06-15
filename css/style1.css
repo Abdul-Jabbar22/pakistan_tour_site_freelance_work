@@ -1,0 +1,100 @@
+.media-1::after {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background: rgba(26, 55, 77, 0.8);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.media-1 img {
+  /* border-radius: 20px; */
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  -webkit-transition: 0.3s transform ease;
+  -o-transition: 0.3s transform ease;
+  transition: 0.3s transform ease;
+}
+.media-1 img:hover {
+  box-shadow: 0 0 20px 0 rgba(185, 200, 207, 0.3);
+  transform: translateY(-3px);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.top-nav {
+  background-color: #ff4d29;
+  /* background-color: #2fccd0; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: white;
+}
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
+}
+.social-links a {
+  text-decoration: none;
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.social-links a:hover {
+  background-color: #ffff;
+  color: #2fccd0;
+}
+#navbar {
+  background-color: #ffffff; /* Initial background color */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+.parent-container {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+}
+
+/* hr line style  */
+.styled-hr {
+  height: 2px; /* Set the height of the line */
+  background-color: rgb(66, 101, 164); /* Set the color of the line */
+  border: none; /* Remove the default border */
+}
+.image {
+  margin-right: 20px;
+}
+.dropdown-item-new-line {
+  white-space: normal;
+}
+/* dropdown button css  */
+/* .buttonDropDown {
+  display: inline-block;
+  padding: 2px 2px;
+  border: 1px solid #000;
+  border-radius: 5px;
+} */
+.listofuni {
+  text-align: left;
+  text-transform: uppercase;
+}
